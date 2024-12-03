@@ -1,0 +1,12 @@
+{
+  "block.thorium_power.thorium_ore_deepslate": "Thorium Deepslate Ore ",
+  "item.thorium_power.raw_thorium": "Raw Thorium",
+  "block.thorium_power.raw_thorium_block": "Raw Thorium Block",
+  "item_group.thorium_power.thorium_power_creative_tab": "Thorium Power",
+  "item.thorium_power.thorium_nugget": "Thorium Nugget",
+  "block.thorium_power.thorium_ore_stone": "Thorium Ore",
+  "item.thorium_power.thorium_ingot": "Thorium Ingot",
+  "block.thorium_power.thorium_radioisotope_thermoelectric_generator": "Thorium Radioisotope Thermoelectric Generator",
+  "block.thorium_power.thorium_block": "Thorium Block",
+  "gui.thorium_power.thorium_radioisotope_thermalelectric_generator_gui.label_thorium_rtg": "Thorium RTG"
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "thorium_power:block/raw_thorium_block"
+    }
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "mod_elements": [
+    {
+      "name": "ThoriumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thoriumpower/item/ThoriumIngotItem.java",
+          "src/main/resources/assets/thorium_power/models/item/thorium_ingot.json"
+        ]
+      },
+      "path": "~/Thorium"
+    },
+    {
+      "name": "ThoriumPowerCreativeTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_power_creative_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "RawThorium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_thorium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thorium_power/models/item/raw_thorium.json",
+          "src/main/java/net/mcreator/thoriumpower/item/RawThoriumItem.java"
+        ]
+      },
+      "path": "~/Thorium"
+    },
+    {
+      "name": "ThoriumNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thoriumpower/item/ThoriumNuggetItem.java",
+          "src/main/resources/assets/thorium_power/models/item/thorium_nugget.json"
+        ]
+      },
+      "path": "~/Thorium"
+    },
+    {
+      "name": "ThoriumOreStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ore_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thorium_power/blockstates/thorium_ore_stone.json",
+          "src/main/resources/data/thorium_power/forge/biome_modifier/thorium_ore_stone_biome_modifier.json",
+          "src/main/resources/data/thorium_power/worldgen/configured_feature/thorium_ore_stone.json",
+          "src/main/resources/assets/thorium_power/models/item/thorium_ore_stone.json",
+          "src/main/resources/assets/thorium_power/models/block/thorium_ore_stone.json",
+          "src/main/resources/data/thorium_power/worldgen/placed_feature/thorium_ore_stone.json",
+          "src/main/java/net/mcreator/thoriumpower/block/ThoriumOreStoneBlock.java"
+        ]
+      },
+      "path": "~/Thorium"
+    },
+    {
+      "name": "ThoriumOreDeepslate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ore_deepslate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thorium_power/worldgen/configured_feature/thorium_ore_deepslate.json",
+          "src/main/resources/assets/thorium_power/blockstates/thorium_ore_deepslate.json",
+          "src/main/java/net/mcreator/thoriumpower/block/ThoriumOreDeepslateBlock.java",
+          "src/main/resources/assets/thorium_power/models/block/thorium_ore_deepslate.json",
+          "src/main/resources/data/thorium_power/worldgen/placed_feature/thorium_ore_deepslate.json",
+          "src/main/resources/data/thorium_power/forge/biome_modifier/thorium_ore_deepslate_biome_modifier.json",
+          "src/main/resources/assets/thorium_power/models/item/thorium_ore_deepslate.json"
+        ]
+      },
+      "path": "~/Thorium"
+    },
+    {
+      "name": "RawThoriumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_thorium_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thoriumpower/block/RawThoriumBlockBlock.java",
+          "src/main/resources/assets/thorium_power/models/item/raw_thorium_block.json",
+          "src/main/resources/data/thorium_power/loot_tables/blocks/raw_thorium_block.json",
+          "src/main/resources/assets/thorium_power/blockstates/raw_thorium_block.json",
+          "src/main/resources/assets/thorium_power/models/block/raw_thorium_block.json"
+        ]
+      },
+      "path": "~/Thorium"
+    },
+    {
+      "name": "ThoriumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thoriumpower/block/ThoriumBlockBlock.java",
+          "src/main/resources/assets/thorium_power/models/item/thorium_block.json",
+          "src/main/resources/data/thorium_power/loot_tables/blocks/thorium_block.json",
+          "src/main/resources/assets/thorium_power/models/block/thorium_block.json",
+          "src/main/resources/assets/thorium_power/blockstates/thorium_block.json"
+        ]
+      },
+      "path": "~/Thorium"
+    },
+    {
+      "name": "ThoriumOreStoneLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ore_stone_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thorium_power/loot_tables/blocks/thorium_ore_stone.json"
+        ]
+      },
+      "path": "~/Thorium/ThoriumLoottables"
+    },
+    {
+      "name": "ThoriumOreDeepslateLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ore_deepslate_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thorium_power/loot_tables/blocks/thorium_ore_deepslate.json"
+        ]
+      },
+      "path": "~/Thorium/ThoriumLoottables"
+    },
+    {
+      "name": "RawThoriumToThoriumIngot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "raw_thorium_to_thorium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thorium_power/recipes/raw_thorium_to_thorium_ingot.json"
+        ]
+      },
+      "path": "~/Recipes/ThoriumRecipes"
+    },
+    {
+      "name": "ThoriumIngotToNugget",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thorium_ingot_to_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thorium_power/recipes/thorium_ingot_to_nugget.json"
+        ]
+      },
+      "path": "~/Recipes/ThoriumRecipes"
+    },
+    {
+      "name": "ThoriumIngotToBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thorium_ingot_to_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thorium_power/recipes/thorium_ingot_to_block.json"
+        ]
+      },
+      "path": "~/Recipes/ThoriumRecipes"
+    },
+    {
+      "name": "ThoriumBlockToIngot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thorium_block_to_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thorium_power/recipes/thorium_block_to_ingot.json"
+        ]
+      },
+      "path": "~/Recipes/ThoriumRecipes"
+    },
+    {
+      "name": "ThoriumNuggetToIngot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thorium_nugget_to_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thorium_power/recipes/thorium_nugget_to_ingot.json"
+        ]
+      },
+      "path": "~/Recipes/ThoriumRecipes"
+    },
+    {
+      "name": "ThoriumRawToBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thorium_raw_to_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thorium_power/recipes/thorium_raw_to_block.json"
+        ]
+      },
+      "path": "~/Recipes/ThoriumRecipes"
+    },
+    {
+      "name": "ThoriumBlockToRaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thorium_block_to_raw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thorium_power/recipes/thorium_block_to_raw.json"
+        ]
+      },
+      "path": "~/Recipes/ThoriumRecipes"
+    },
+    {
+      "name": "ThoriumRadioisotopeThermoelectricGenerator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_radioisotope_thermoelectric_generator",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thorium_power/loot_tables/blocks/thorium_radioisotope_thermoelectric_generator.json",
+          "src/main/resources/assets/thorium_power/blockstates/thorium_radioisotope_thermoelectric_generator.json",
+          "src/main/resources/assets/thorium_power/models/block/thorium_radioisotope_thermoelectric_generator.json",
+          "src/main/resources/assets/thorium_power/models/item/thorium_radioisotope_thermoelectric_generator.json",
+          "src/main/java/net/mcreator/thoriumpower/block/entity/ThoriumRadioisotopeThermoelectricGeneratorBlockEntity.java",
+          "src/main/java/net/mcreator/thoriumpower/block/ThoriumRadioisotopeThermoelectricGeneratorBlock.java"
+        ]
+      },
+      "path": "~/Reactor"
+    },
+    {
+      "name": "ThoriumRTGRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thorium_rtg_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thorium_power/recipes/thorium_rtg_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ThoriumRadioisotopeThermalelectricGeneratorGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_radioisotope_thermalelectric_generator_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thoriumpower/world/inventory/ThoriumRadioisotopeThermalelectricGeneratorGUIMenu.java",
+          "src/main/java/net/mcreator/thoriumpower/client/gui/ThoriumRadioisotopeThermalelectricGeneratorGUIScreen.java"
+        ]
+      },
+      "path": "~/Reactor"
+    },
+    {
+      "name": "ThoriumRadioisotopeThermoelectricGeneratorOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_radioisotope_thermoelectric_generator_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thoriumpower/procedures/ThoriumRadioisotopeThermoelectricGeneratorOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Reactor"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:forge:ores/thorium": [
+      "CUSTOM:ThoriumOreStone",
+      "CUSTOM:ThoriumOreDeepslate"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:ThoriumRadioisotopeThermoelectricGenerator",
+      "~CUSTOM:ThoriumOreDeepslate",
+      "~CUSTOM:ThoriumOreStone"
+    ],
+    "ITEMS:forge:nuggets/thorium": [
+      "CUSTOM:ThoriumNugget"
+    ],
+    "ITEMS:forge:blocks/thorium": [
+      "CUSTOM:ThoriumBlock"
+    ],
+    "ITEMS:forge:ingots/thorium": [
+      "CUSTOM:ThoriumIngot"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.thorium_power.thorium_ore_deepslate": "Thorium Deepslate Ore ",
+      "item.thorium_power.raw_thorium": "Raw Thorium",
+      "block.thorium_power.raw_thorium_block": "Raw Thorium Block",
+      "item_group.thorium_power.thorium_power_creative_tab": "Thorium Power",
+      "item.thorium_power.thorium_nugget": "Thorium Nugget",
+      "block.thorium_power.thorium_ore_stone": "Thorium Ore",
+      "item.thorium_power.thorium_ingot": "Thorium Ingot",
+      "block.thorium_power.thorium_radioisotope_thermoelectric_generator": "Thorium Radioisotope Thermoelectric Generator",
+      "block.thorium_power.thorium_block": "Thorium Block",
+      "gui.thorium_power.thorium_radioisotope_thermalelectric_generator_gui.label_thorium_rtg": "Thorium RTG"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Thorium",
+        "children": [
+          {
+            "name": "ThoriumLoottables",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Recipes",
+        "children": [
+          {
+            "name": "ThoriumRecipes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Reactor",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "thorium_power",
+    "modName": "Thorium Power",
+    "version": "1.0.0",
+    "author": "thors, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.thoriumpower"
+  },
+  "mcreatorVersion": 202400342716
+}

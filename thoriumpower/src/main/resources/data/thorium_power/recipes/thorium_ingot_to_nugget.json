@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/thorium"
+    }
+  ],
+  "result": {
+    "item": "thorium_power:thorium_nugget",
+    "count": 9
+  }
+}

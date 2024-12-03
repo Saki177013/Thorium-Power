@@ -1,0 +1,11 @@
+{
+  "_fv": 69,
+  "_type": "tab",
+  "definition": {
+    "name": "Thorium Power",
+    "icon": {
+      "value": "CUSTOM:ThoriumIngot"
+    },
+    "showSearch": false
+  }
+}

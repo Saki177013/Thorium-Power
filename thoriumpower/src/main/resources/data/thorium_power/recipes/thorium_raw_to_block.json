@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "thorium_power:raw_thorium"
+    }
+  },
+  "result": {
+    "item": "thorium_power:raw_thorium_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "thorium_power:thorium_ore_stone",
+    "thorium_power:thorium_ore_deepslate"
+  ]
+}

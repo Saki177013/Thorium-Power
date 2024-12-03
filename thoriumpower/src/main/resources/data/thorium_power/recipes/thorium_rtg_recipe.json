@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_block"
+    },
+    "b": {
+      "item": "minecraft:redstone_block"
+    },
+    "c": {
+      "tag": "forge:blocks/thorium"
+    }
+  },
+  "result": {
+    "item": "thorium_power:thorium_radioisotope_thermoelectric_generator",
+    "count": 1
+  }
+}

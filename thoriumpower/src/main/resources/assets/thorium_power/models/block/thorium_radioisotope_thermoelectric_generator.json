@@ -1,0 +1,9 @@
+{
+  "parent": "thorium_power:custom/thoriumradioisotopethermoelectricgenerator",
+  "textures": {
+    "all": "thorium_power:block/thrtg",
+    "particle": "thorium_power:block/thrtg",
+    "1": "thorium_power:block/thrtg"
+  },
+  "render_type": "solid"
+}
