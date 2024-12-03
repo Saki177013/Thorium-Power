@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "thorium_power:block/thorium_ore_stone"
+    }
+  }
+}

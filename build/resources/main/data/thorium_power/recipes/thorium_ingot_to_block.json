@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:ingots/thorium"
+    }
+  },
+  "result": {
+    "item": "thorium_power:thorium_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thorium_power:block/thorium_block_2",
+    "up": "thorium_power:block/thorium_block_2",
+    "north": "thorium_power:block/thorium_block_2",
+    "east": "thorium_power:block/thorium_block_2",
+    "south": "thorium_power:block/thorium_block_2",
+    "west": "thorium_power:block/thorium_block_2",
+    "particle": "thorium_power:block/thorium_block_2"
+  },
+  "render_type": "solid"
+}
